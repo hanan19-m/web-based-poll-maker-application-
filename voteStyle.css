@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(315deg, #3eb991 0%, #784BA0 50%, #2B86C5 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.main-container {
+    padding-top: 100px;
+    margin:25px;
+    display: flex;
+    justify-content: center;
+
+}
+.container { 
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+.container .polaroid {
+    justify-content: center;
+    display: block;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(256,128,124);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: absolute;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffffae;
+    overflow: hidden;
+    width: auto;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+
+.container:hover .overlay1 {
+    height: 200px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: absolute;
+    border-radius: 8px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+  
+  .box p {
+    text-align: center;
+  }
+
+.text {
+    white-space: nowrap; 
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.logo {
+    max-width: 50px;
+    padding-left: 10px; 
+}
+
+.name {
+    color: rgb(29, 28, 28);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    left: 70px;
+    position: fixed;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid white;;
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    
+}

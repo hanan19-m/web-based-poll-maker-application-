@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(315deg, #3eb991 0%, #784BA0 50%, #2B86C5 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+}
+
+.container {
+    background-color: rgb(3, 3, 3, 0.25);
+    align-items: center;
+    text-align: center;
+    margin: 5% 25%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    border-radius: 10%;
+    text-shadow: purple 0px 7px 10px;
+}
+
+.buttonsub {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.butt {
+    background-image: linear-gradient(to top left, purple, #7f95ed);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    border-radius: 10%;
+    color: white;
+    box-shadow: black 5px 5px 5px;
+    border: black thin;
+}
+
+    .butt:hover {
+        background-image: linear-gradient(to top left, purple, purple);
+        text-shadow: black 3px 5px 5px;
+        box-shadow: black -5px -5px 5px;
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+}
+
+.please {
+    color: white;
+    text-shadow: red 3px 5px 5px;
+    margin-top: 20%;
+    margin-bottom: 0px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 80px;
+    background-color: rgb(3, 3, 3, 0.25);
+}

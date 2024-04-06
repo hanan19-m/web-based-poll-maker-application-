@@ -1,0 +1,167 @@
+﻿body {
+    background-image: linear-gradient(315deg, #3eb991 0%, #784BA0 50%, #2B86C5 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid white;
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    max-width: 50px;
+    padding-left: 10px;
+}
+
+.name {
+    color: rgb(29, 28, 28);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    left: 70px;
+    position: fixed;
+}
+
+.mybutton {
+    height: 35px;
+    background: rgba(115, 17, 124, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin: auto 10px;
+    padding: 10px 25px;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', sans-serif;
+    transition-duration: 0.4s;
+}
+
+    .mybutton:hover {
+        background-color: rgba(69, 15, 74, 0.808);
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.container {
+    background-color: rgb(3, 3, 3, 0.25);
+    align-items: center;
+    text-align: center;
+    min-height: 200px;
+    margin: 7%  25%;
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+@media (max-width: 400px) {      /*mobile mode */
+    .container {
+        margin: 15%  5%; 
+      }
+    }
+
+h1 {
+    font-size: 35px;
+    margin-top: 1%;
+    width: 100%;
+    color: white;
+    border-radius: 10%;
+}
+
+.options {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+hr {
+    width: 100%;
+}
+
+.radio {
+    margin-left: 5%;
+}
+
+    .radio:hover {
+        box-shadow: black 3px 5px 5px;
+    }
+
+.buttonsub {
+    margin-top: auto;
+    margin-left:40%;
+    margin-right:40%;
+    margin-bottom:0;
+    text-align: left;
+    align-items:center;
+}
+
+.butt {
+    background-image: linear-gradient(to top left, purple, #7f95ed);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    border-radius: 10%;
+    color: white;
+    box-shadow: black 5px 5px 5px;
+    border: black thin;
+}
+
+    .butt:hover {
+        background-image: linear-gradient(to top left, purple, purple);
+        text-shadow: black 3px 5px 5px;
+        box-shadow: black -5px -5px 5px;
+    }
+
+
+.login {
+margin-top:3%;
+text-align:center;
+font-size:16px;
+font-weight:lighter;
+text-decoration:underline
+}
+
+
+.op {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optext {
+    margin-left:1%;
+    margin-bottom:1%;
+}
+
+.opvalue {
+    font-size:15px;
+}
+
+.bar {
+    font-size: 15px;
+    height: 20px;
+    background-image: linear-gradient(to top left, #1cf2b4, #b61bf3);
+    text-align: left;
+    color: #3eb991;
+    border-radius: 10px;
+}

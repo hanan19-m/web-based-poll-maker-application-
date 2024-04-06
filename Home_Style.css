@@ -1,0 +1,159 @@
+/* CSS file for Home page */
+
+body{
+    background-image: linear-gradient(315deg, #3eb991 0%, #784BA0 50%, #2B86C5 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+.main-container {
+    padding-top: 100px;
+    margin:25px;
+    display: flex;
+    justify-content: center; 
+
+}
+
+
+.container { 
+    text-align: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+.container .polaroid {
+    width: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: absolute;
+    border-radius: 0 0 8px 8px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    width: auto;
+    height: 300px; 
+    border-radius: 8px 8px 0 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.overlay1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffffae;
+    overflow: hidden;
+    width: auto;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 8px;
+}
+
+.container:hover .overlay1 {
+    height: 692%;
+}
+
+.text {
+    white-space: nowrap; 
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.logo {
+    max-width: 50px;
+    padding-left: 10px; 
+}
+
+.name {
+    color: rgb(29, 28, 28);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    left: 70px;
+    position: fixed;
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid white;;
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.mybutton {
+
+    height: 35px;
+    background: rgba(115, 17, 124, 0.808);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin: auto 10px;
+    padding: 10px 25px;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', sans-serif;
+    transition-duration: 0.4s;
+
+}
+
+
+.mybutton:hover {
+    background-color: rgba(69, 15, 74, 0.808);
+}
+
+@media (max-width: 768px) {      /*tablet mode */
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        margin-bottom: 30px;
+        }
+    .header-container .mybutton:last-child {
+        margin-right: 40px; 
+      }
+  }
+
+  @media (max-width: 400px) {      /*mobile mode */
+    .header-container .mybutton:last-child {
+        margin-right: 15px; 
+      }
+    .header-container .mybutton {
+        margin-left: 10px;
+
+
+        
+      }
+  }
